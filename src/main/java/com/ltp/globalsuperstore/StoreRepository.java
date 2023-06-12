@@ -3,10 +3,10 @@ package com.ltp.globalsuperstore;
 import java.util.ArrayList;
 import java.util.List;
 
+
+import org.springframework.stereotype.Repository;
 import com.ltp.Item;
-
-
-
+@Repository
 public class StoreRepository {
     private List<Item> items = new ArrayList<>();
 
